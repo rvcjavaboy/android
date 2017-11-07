@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
      String username="rvcinfo",password="123";
@@ -39,8 +40,7 @@ public class LoginActivity extends AppCompatActivity {
 
         }else{
 
-            Intent popup=new Intent(this,PopupFailedLoginActivity.class);
-            startActivity(popup);
+            Toast.makeText(getApplicationContext(),"Login Failed",Toast.LENGTH_SHORT).show();
 
         }
 
