@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">email id</string>
+    <string name="email_valid_msg">please enter valid email id</string>
+    <string name="pass_valid_msg">Password Minimum eight characters, maximum 15 characters
+    </string>
+</resources>

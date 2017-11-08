@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner Image</string>
+
+    <string-array name="java">
+        <item>Java</item>
+        <item>Android</item>
+        <item>NodeJs</item>
+        <item>Python</item>
+
+    </string-array>
+</resources>
