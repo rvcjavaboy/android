@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cars</string>
+
+    <string-array name="cars">
+        <item>Audi R8</item>
+        <item>Tesla</item>
+        <item>Rolls Royce</item>
+        <item>Land Rover</item>
+        <item>jaguar</item>
+    </string-array>
+</resources>

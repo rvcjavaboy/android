@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Animation</string>
+
+    <string-array name="function">
+        <item>Scale</item>
+        <item>Rotate</item>
+        <item>Translater</item>
+        <item>Alfa</item>
+
+
+    </string-array>
+</resources>
