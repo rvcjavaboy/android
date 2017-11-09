@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cars_name"
         app:layout_constraintVertical_bias="0.02" />
 
-    <ImageView
+   <!-- <ImageView
         android:id="@+id/imageView2"
         android:layout_width="268dp"
         android:layout_height="216dp"
@@ -55,7 +55,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/price"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher" />-->
+
 
     <EditText
         android:id="@+id/editText"
@@ -69,10 +70,26 @@
         android:inputType="textMultiLine"
         android:textSize="10sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/gallery"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/price"
         tools:text="Description" />
 
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="346dp"
+        android:layout_height="221dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
+
+
+    </Gallery>
 </android.support.constraint.ConstraintLayout>
