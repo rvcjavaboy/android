@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chavan.ranjit.student.Delete">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="260dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="340dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:hint="Enter id"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="76dp"
+        android:onClick="onDelete"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Phonebook</string>
+    <string-array name="cont">
+        <item>Demod</item>
+
+    </string-array>
+
+</resources>

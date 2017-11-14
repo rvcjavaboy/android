@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    tools:context="com.chavan.ranjit.phonebook.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="386dp"
+        android:layout_height="506dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="306dp"
+            android:layout_height="487dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:baselineAligned="false"
+            android:divider="#787669"
+            android:dividerHeight="2px" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
